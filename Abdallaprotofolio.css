@@ -59,9 +59,10 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/ana.png)no-repeat;
+    background:url(images/C0219T01.JPG) no-repeat;
+    /* background-image: url(images/ana.png); */
     background-size: cover;
-    background-position: top center;
+    background-position: top left ;
     background-attachment: fixed;
     /* you change fixed by scroll try it after you finish */
 
@@ -347,6 +348,10 @@ section {
 
 
     }
+    .main{
+        background-position: bottom;
+        background-size: cover;
+    }
 
     .navigation a {
         padding-left: 10px;
@@ -389,7 +394,11 @@ section {
 @media(max-width:641px) {
     body {
         font-size: 12px;
+        
 
+    }.main{
+        background-size: cover;
+        background-position: bottom;
     }
 
     .main-content h2 {
@@ -424,4 +433,9 @@ section {
     .card {
         width: 220px;
     }
-}
+    @media(max-width: 1400px){
+        .main{
+            background-size: cover;
+            
+        }
+    }}
