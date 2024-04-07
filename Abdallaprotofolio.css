@@ -331,7 +331,8 @@ section {
 /* هنبدا نعمل media queries */
 @media (max-width:844px){
     .main {
-            background-size: auto;
+            background-size: cover;
+            background-position: bottom;
             
             
     } 
@@ -436,6 +437,7 @@ section {
     @media(max-width: 1400px){
         .main{
             background-size: cover;
+            background-position: bottom;
             
         }
     }}
