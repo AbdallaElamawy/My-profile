@@ -463,14 +463,13 @@ section {
         padding: 12px 20px;
 
 
-    }section{
+    }.main{
         background-position: bottom;
         background-size: cover;
+        background-repeat: no-repeat;
+        background-color: beige;
     }
-    main{
-        background-position: bottom;
-        background-size: cover;
-    }
+    
 
     .navigation a {
         padding-left: 10px;
@@ -517,5 +516,8 @@ section {
         font-size: 0.8em;
         padding-left: 10px;
         width: fit-content;
-    } } 
+    } .projects .content{
+        align-items: center;
+        flex-direction: row;
+    }} 
     
