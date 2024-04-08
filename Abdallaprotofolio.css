@@ -7,6 +7,8 @@
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
+
 
 }
 
@@ -14,7 +16,7 @@
 
 
 header {
-    background-color: whitesmoke;
+    background-color: rgb(0, 0, 0);
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -53,6 +55,7 @@ section {
     padding: 30px 60px;
 }
 
+
 .main {
     width: 100%;
     /* vh=viewport */
@@ -60,9 +63,9 @@ section {
     display: flex;
     align-items: center;
   
-    background-image: url(images/ana.png);
+    background-image: url(images/C0219T01.JPG);
     background-size: cover;
-    background-position: center ;
+    background-position: top ;
     background-attachment: fixed;
     /* you change fixed by scroll try it after you finish */
 
@@ -254,8 +257,8 @@ section {
     display: flex;
     justify-content: center;
     color: cornflowerblue;
-    margin: 30px;
-    font-size: 2.5em;
+    margin: -7px;
+    font-size:21px;
     font-weight: 700;
 }
 
@@ -305,7 +308,7 @@ section {
 }
 
 .last {
-    background-color: darkblue;
+    background-color:darkblue;
     color: white;
     padding: 2em;
     display: flex;
@@ -320,7 +323,7 @@ section {
 }
 
 .footer-last span {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .last .social-icons {
@@ -458,17 +461,28 @@ section {
    }  */
         
    
-    @media (max-width:844){
+    @media (max-width:844px){
     header {
-        padding: 12px 20px;
+        padding: 2px 9px;
+        width: fit-content;
 
 
+    }header a.logo{
+        font-size: 29px;
     }
+    
     .main{
-        background-position: bottom;
-        background-size: contain;
+        background-position: top;
+        background-size: cover;
         background-repeat: no-repeat;
         background-color: beige;
+    }
+    .main h2{
+        font-size: 17px;
+
+    }
+    .main h3{
+        font-size: 19px;
     }
     
 
@@ -483,12 +497,12 @@ section {
     }
 
     section {
-        padding: 80px 20px;
+        padding: 51px 20px;
 
     }
 
     .main-content h2 {
-        font-size: 1em;
+        font-size: 20px;
 
 
     }
@@ -516,5 +530,18 @@ section {
     } .projects .content{
         align-items: center;
         flex-direction: row;
-    }} 
+    }.last{
+        display: flex;
+        /* align-items: center; */
+        align-content: space-between;
+        padding: 7px;
+    }.last .footer-last{
+        font-size: 19px;
+    }.last span{
+        font-size: 16px;
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    
+} 
     
