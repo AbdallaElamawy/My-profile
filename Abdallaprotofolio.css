@@ -463,9 +463,10 @@ section {
         padding: 12px 20px;
 
 
-    }.main{
+    }
+    .main{
         background-position: bottom;
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-color: beige;
     }
@@ -506,10 +507,6 @@ section {
         display: flex;
         flex: wrap;
         padding-left: 10px;
-    }.main{
-        background-position: bottom;
-        background-size: cover;
-        
     }.navigation{
         display: flex;
         align-content: space-between;
