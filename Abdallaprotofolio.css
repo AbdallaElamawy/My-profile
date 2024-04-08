@@ -442,12 +442,13 @@ section {
             background-position: bottom;
         }}
         @media only screen 
-    and (width: 393px) 
-    and (height: 852px) 
-    and (-webkit-device-pixel-ratio: 3) { 
-        .main{
-            background-position: bottom;
-            background-size: cover;
-        }
-    }
+        and (device-width: 390px) 
+        and (device-height: 844px) 
+        and (-webkit-device-pixel-ratio: 3) {
+            section{
+                background-position: bottom;
+                background-size: cover;
+            }
+   }
+        
     }
