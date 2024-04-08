@@ -347,6 +347,9 @@ section {
         padding: 12px 20px;
 
 
+    }section{
+        background-position: bottom;
+        background-size: cover;
     }
     main{
         background-position: bottom;
