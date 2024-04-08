@@ -59,10 +59,10 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(images/C0219T01.JPG) no-repeat;
+  
     /* background-image: url(images/ana.png); */
     background-size: cover;
-    background-position: top left ;
+    background-position: center ;
     background-attachment: fixed;
     /* you change fixed by scroll try it after you finish */
 
@@ -458,7 +458,7 @@ section {
    }  */
         
    
-    @media (max-width:844px){
+    @media (max-width:844){
     header {
         padding: 12px 20px;
 
@@ -473,7 +473,7 @@ section {
     
 
     .navigation a {
-        padding-left: 10px;
+        padding-left: 20px;
 
     }
 
