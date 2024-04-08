@@ -349,7 +349,7 @@ section {
 
     }section{
         background-position: bottom;
-        background-size: cover;
+        background-size:contain;
     }
     main{
         background-position: bottom;
