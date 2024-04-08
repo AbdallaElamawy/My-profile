@@ -60,7 +60,7 @@ section {
     display: flex;
     align-items: center;
   
-    /* background-image: url(images/ana.png); */
+    background-image: url(images/ana.png);
     background-size: cover;
     background-position: center ;
     background-attachment: fixed;
