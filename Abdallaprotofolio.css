@@ -329,7 +329,7 @@ section {
 
 /* كدا الموقع خلص  */
 /* هنبدا نعمل media queries */
-@media (max-width:844px){
+/* @media (max-width:844px){
     .main {
             background-size: auto;
             
@@ -338,18 +338,18 @@ section {
     
     
     
-}
+}*/
     
 
 
-@media(max-width:1023px) {
+ @media(max-width:1023px) {
     header {
         padding: 12px 20px;
 
 
     }section{
         background-position: bottom;
-        background-size:contain;
+        background-size: cover;
     }
     main{
         background-position: bottom;
@@ -390,17 +390,20 @@ section {
         display: flex;
         flex: wrap;
         padding-left: 10px;
+    }.main{
+        background-position: bottom;
+        background-size: cover;
     }
 
-}
+} 
 
-@media(max-width:641px) {
+ @media(max-width:641px) {
     body {
-        font-size: 12px;
-        /* background-size: cover; */
+        font-size: 12px; 
+         background-size: cover; 
         
 
-    }.main{
+     }.main{
         background-position: bottom;
         background-size: cover;
 
@@ -438,8 +441,8 @@ section {
 
     .card {
         width: 220px;
-    }
-    @media(max-width: 1400px){
+    }}
+    /* @media(max-width: 1400px){
         .main{
             background-size: cover;
             background-position: bottom;
@@ -452,6 +455,14 @@ section {
                 background-position: bottom;
                 background-size: cover;
             }
-   }
+   }  */
         
-    }
+   
+    /* @media (max-width:844px){
+    .main {
+            background-size: cover;
+            background-position: bottom;
+            
+            
+    }  } */
+    
