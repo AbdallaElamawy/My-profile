@@ -63,10 +63,6 @@ section {
     display: flex;
     align-items: center;
   
-    background-image: url(images/C0219T01.JPG);
-    background-size: cover;
-    background-position: top ;
-    background-attachment: fixed;
     /* you change fixed by scroll try it after you finish */
 
 }
